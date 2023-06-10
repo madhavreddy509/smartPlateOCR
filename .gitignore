@@ -1,0 +1,29 @@
+# Ignore Python virtual environment files
+env/
+venv/
+base/
+*.pyc
+
+# Ignore Django specific files
+*.log
+db.sqlite3
+
+# Ignore IDE and editor specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore cache and temporary files
+__pycache__/
+*.swp
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
