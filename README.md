@@ -1,76 +1,65 @@
-```html
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Numplate Detection</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-    <h1>Numplate Detection</h1>
+# Numplate Detection
 
-    <div class="icon-container">
-        <i class="fab fa-python"></i>
-        <i class="fab fa-tensorflow"></i>
-        <i class="fab fa-python"></i>
-        <i class="fab fa-django"></i>
-    </div>
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
+![PyTesseract](https://img.shields.io/badge/PyTesseract-4.1%2B-yellow)
+![Django](https://img.shields.io/badge/Django-3.0%2B-green)
 
-    <div class="project-overview">
-        <h2>Project Overview</h2>
-        <p>
-            This project utilizes Python, TensorFlow, PyTesseract, and Django to create a web interface for number plate detection.
-        </p>
-    </div>
+This project utilizes Python, TensorFlow, PyTesseract, and Django to create a web interface for number plate detection.
 
-    <div class="installation">
-        <h2>Installation</h2>
-        <ol>
-            <li>Clone the repository:</li>
-            <pre><code>git clone https://github.com/your-username/numplate-detection.git</code></pre>
+## Installation
 
-            <li>Create a virtual environment and activate it:</li>
-            <pre><code>python -m venv env
-source env/bin/activate  # for Linux/macOS
-env\Scripts\activate  # for Windows</code></pre>
+1. clone the repository, run the following command in your terminal:
 
-            <li>Install the required dependencies:</li>
-            <pre><code>pip install -r requirements.txt</code></pre>
+    ```shell
+        git clone https://github.com/madhavreddy509/smartPlateOCR
+2. Create a virtual environment and activate it:
 
-            <li>Download the MobileNetV2 model weights and place them in the <code>models</code> directory.</li>
-        </ol>
-    </div>
+    ```shell
+        python -m venv env
+        source env/bin/activate # for Linux/macOS
+        env\Scripts\activate # for Windows
 
-    <div class="usage">
-        <h2>Usage</h2>
-        <ol>
-            <li>Start the Django development server:</li>
-            <pre><code>python manage.py runserver</code></pre>
+3. Install the required dependencies:
 
-            <li>Access the web interface by navigating to <code>http://localhost:8000</code> in your web browser.</li>
-            <li>Upload an image containing a number plate.</li>
-            <li>The application will detect and extract the number plate from the image, displaying the result on the web interface.</li>
-        </ol>
-    </div>
+    ```shell
+        pip install -r requirements.txt
 
-    <div class="technologies-used">
-        <h2>Technologies Used</h2>
-        <ul>
-            <li><i class="fab fa-python"></i> Python</li>
-            <li><i class="fab fa-tensorflow"></i> TensorFlow</li>
-            <li><i class="fab fa-python"></i> PyTesseract</li>
-            <li><i class="fab fa-django"></i> Django</li>
-        </ul>
-    </div>
 
-    <div class="acknowledgements">
-        <h2>Acknowledgements</h2>
-        <ul>
-            <li><a href="https://arxiv.org/abs/1801.04381">MobileNetV2: Inverted Residuals and Linear Bottlenecks</a> by Mark Sandler, Andrew Howard, et al.</li>
-            <li><a href="https://github.com/madmaze/pytesseract">PyTesseract</a>: Python wrapper for Tesseract OCR.</li>
-            <li><a href="https://docs.djangoproject.com/">Django Documentation</a>: Official documentation for Django.</li>
-        </ul>
-    </div>
+4. Download the MobileNetV2 model weights and place them in the `models` directory.
 
-</body>
-</html>
+## Usage
+
+1. Start the Django development server:
+    
+    ```shell
+        python manage.py runserver
+        
+
+2. Access the web interface by navigating to `http://localhost:8000` in your web browser.
+
+3. Upload an image containing a number plate.
+
+4. The application will detect and extract the number plate from the image, displaying the result on the web interface.
+
+## Technologies Used
+
+- ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
+- ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0%2B-orange)
+- ![PyTesseract](https://img.shields.io/badge/PyTesseract-4.1%2B-yellow)
+- ![Django](https://img.shields.io/badge/Django-3.0%2B-green)
+
+## Acknowledgements
+
+- [MobileNetV2: Inverted Residuals and Linear Bottlenecks](https://arxiv.org/abs/1801.04381) by Mark Sandler, Andrew Howard, et al.
+- [PyTesseract](https://github.com/madmaze/pytesseract): Python wrapper for Tesseract OCR.
+- [Django Documentation](https://docs.djangoproject.com/): Official documentation for Django.
+
+## Output 
+
+
+
+
+
+
+
