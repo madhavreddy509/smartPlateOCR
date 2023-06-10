@@ -58,6 +58,26 @@ This project utilizes Python, TensorFlow, PyTesseract, and Django to create a we
 ## Output 
 
 
+ <img src="Screenshot (121).png" align="center" />
+
+form to upload a image
+
+
+
+  <img src="Screenshot (120).png" align="center" />
+form to upload a image
+
+## Note 
+
+- the model is trained on small dataset under 300 images , 
+
+- to incease the bounding box prediction capacity train model 
+
+- under vast inputs to extract the correct output text
+
+
+
+
 
 
 
