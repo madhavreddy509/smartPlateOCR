@@ -1,59 +1,9 @@
-# smartPlateOCR
+```html
 <!DOCTYPE html>
 <html>
 <head>
     <title>Numplate Detection</title>
-    <style>
-      body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
-
-h1 {
-    text-align: center;
-}
-
-.icon-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-.icon-container i {
-    font-size: 40px;
-    margin: 10px;
-}
-
-.project-overview, .installation, .usage, .technologies-used, .acknowledgements {
-    margin-bottom: 40px;
-}
-
-.project-overview h2, .installation h2, .usage h2, .technologies-used h2, .acknowledgements h2 {
-    margin-bottom: 10px;
-}
-
-ol, ul {
-    padding-left: 20px;
-}
-
-pre {
-    background-color: #f4f4f4;
-    padding: 10px;
-}
-
-code {
-    font-family: Consolas, monospace;
-}
-
-a {
-    color: #0000ff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-  </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
